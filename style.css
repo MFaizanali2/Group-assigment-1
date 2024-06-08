@@ -12,6 +12,40 @@ html,body{
     height: 100vh;
     
 }
-
+body{
+    background-color: #367dbe;
+}
+#container{
+    background-color: #fff;
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#header{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+}
+#header h1{
+    font-family: "Roboto";
+    color: #003366;
+    padding: 15px; 
+}
+#header h5{
+    font-family: "Roboto";
+    color: #003366; 
+    font-size: 18px;
+}
+#container #content{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background-color: red;
+}
     /* background-color: #174978;
         color: #003366; */
