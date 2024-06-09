@@ -11,7 +11,7 @@ function clickone() {
         HTML has evolved, with HTML5 introducing multimedia support and semantic elements.
          Integral to web development, HTML works with CSS and JavaScript,
           forming the core of modern, interactive websites.`;
-    image.innerHTML = `<img src="images/html.jpg" alt="html pic">`
+    image.innerHTML = `<img src="images/html.jpg"  alt="html pic">`
 }
 
 function clicktwo() {
@@ -21,7 +21,7 @@ function clicktwo() {
      CSS allows for styling web pages with fonts, colors, and spacing. 
      It enables responsive design, ensuring websites look good on various devices.
       CSS, combined with HTML and JavaScript, forms the backbone of modern web development.`;
-    image.innerHTML = `<img src="images/css.jpg" alt="css pic">`
+    image.innerHTML = `<img src="images/css.jpg" style="width:380px; height:300px" alt="css pic">`
 }
 
 function clickthree() {
@@ -32,5 +32,5 @@ function clickthree() {
      enabling complex features like animations, form validations, and asynchronous operations.
       Its frameworks and libraries, such as React and Node.js, further simplify and expand its 
       application, making it indispensable in modern web development.`;
-    image.innerHTML = `<img src="images/javascript.png" alt="javascript pic">`
+    image.innerHTML = `<img src="images/javascript1.jpg" style="width:380px; height:300px" alt="javascript pic">`
 }
