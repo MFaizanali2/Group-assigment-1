@@ -110,5 +110,23 @@ body{
     width: 300px;
     height: 300px;
 }
+
+@media screen and (max-width: 900px) {
+    #container #content{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #container #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
     /* background-color: #174978;
         color: #003366; */
