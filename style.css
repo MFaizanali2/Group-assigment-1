@@ -18,12 +18,13 @@ body {
 }
 #container {
   overflow: hidden;
-  width: 90%;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;/
+  /* row-gap: 10%; */
 }
 #header {
   width: 100%;
@@ -42,17 +43,21 @@ body {
   font-size: 18px;
 }
 #content {
-  width: 100%;
+  width: 80%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   /* padding-left:0px; */
+  /* gap: 100px; */
 }
 #html {
-  width: 40%;
-  height: 100%;
+  width: 100%;
+  height: 70%;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #buttons {
   width: 100%;
@@ -82,13 +87,12 @@ body {
   background-color: rgb(179, 174, 174);
 }
 #html-text {
-  width: 100%;
-  height: 75%;
+  width: 70%;
+  height: 100%;
   overflow: hidden;
 }
 #head {
   color: #003366;
-
   font-weight: bold;
   font-family: "Roboto";
   font-size: 32px;
@@ -103,18 +107,32 @@ body {
   height: 300px;
 }
 
-@media screen and (max-width: 900px) {
-    #container {
-        display: block;
-        overflow-y: scroll;
-        /* padding: 30px; */
-        margin: 20px;
-    }
-    #content {
+@media (max-width: 900px) {
+  #container {
+    display: flex;
+    overflow-y: scroll;
+  }
+  #content {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  #container {
+    display: flex;
+    overflow-y: scroll;
+    /* gap: %; */
+    padding-top: 80px;
+    /* margin: 20px; */
+  }
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
   }
 }
 /* background-color: #174978;
