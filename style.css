@@ -106,7 +106,9 @@ body {
 @media screen and (max-width: 900px) {
     #container {
         display: block;
-        overflow: scroll;
+        overflow-y: scroll;
+        /* padding: 30px; */
+        margin: 20px;
     }
     #content {
     display: flex;
